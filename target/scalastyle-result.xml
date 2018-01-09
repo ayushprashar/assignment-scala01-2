@@ -1,15 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="5.0">
- <file name="/home/knoldus/IdeaProjects/Kipday2/src/main/scala/MainApp.scala">
-  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
-  <error column="2" line="17" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
-  <error column="2" line="18" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
-  <error column="2" line="19" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
- </file>
- <file name="/home/knoldus/IdeaProjects/Kipday2/src/main/scala/Operations.scala">
-  <error line="1" source="org.scalastyle.file.HeaderMatchesChecker" severity="warning" message="Header does not match expected text"/>
-  <error column="4" line="5" source="org.scalastyle.file.RegexChecker" severity="warning" message="Regular expression matched 'println'"/>
-  <error column="6" line="31" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
-  <error column="4" line="40" source="org.scalastyle.scalariform.IfBraceChecker" severity="warning" message="If block needs braces"/>
- </file>
-</checkstyle>
+      
+    </checkstyle>

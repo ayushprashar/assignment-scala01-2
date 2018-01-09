@@ -14,7 +14,7 @@ object MainApp extends App{
   val fibonacciPlaceholder = 4
   val sopod_placeholder = 5
   exec.printIndices(toPrintIndex)
-  println(exec.findMax(toFindMax))
-  println(exec.nthFibonacci(fibonacciPlaceholder))
-  println(exec.sumOfProductOfDigits(sopod_placeholder))
+  print(s" ${exec.findMax(toFindMax)} \n")
+  print(s"${exec.nthFibonacci(fibonacciPlaceholder)} \n")
+  print(exec.sumOfProductOfDigits(sopod_placeholder))
 }
