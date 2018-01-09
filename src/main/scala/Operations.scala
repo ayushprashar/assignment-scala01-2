@@ -28,7 +28,7 @@ class Operations {
       0
     }
     else {
-      if (index == 1) {
+      if (index == 1){
         1
       }
       else
@@ -37,7 +37,7 @@ class Operations {
   }
 
   def mul(num: Int): Int = {
-    if (num == 1) {
+    if (num == 1){
       1
     }
     else

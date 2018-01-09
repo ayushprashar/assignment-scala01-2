@@ -11,14 +11,9 @@
 [0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/IdeaProjects/Kipday2/src/main/scala/Operations.scala:5:4: Regular expression matched 'println'[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/IdeaProjects/Kipday2/src/main/scala/Operations.scala:31:6: If block needs braces[0m
 [0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/IdeaProjects/Kipday2/src/main/scala/Operations.scala:40:4: If block needs braces[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/IdeaProjects/Kipday2/src/main/scala/Operations.scala:3:6: Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/IdeaProjects/Kipday2/src/main/scala/Operations.scala:26:6: Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/IdeaProjects/Kipday2/src/main/scala/Operations.scala:47:6: Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/IdeaProjects/Kipday2/src/main/scala/Operations.scala:56:6: Method name does not match the regular expression '^[a-z][A-Za-z0-9]*$'[0m
 [0m[[0m[0mdebug[0m] [0m[0mend file /home/knoldus/IdeaProjects/Kipday2/src/main/scala/Operations.scala[0m
 [0m[[0m[0minfo[0m] [0m[0mscalastyle Processed 2 file(s)[0m
 [0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 errors[0m
-[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 12 warnings[0m
+[0m[[0m[0minfo[0m] [0m[0mscalastyle Found 8 warnings[0m
 [0m[[0m[0minfo[0m] [0m[0mscalastyle Found 0 infos[0m
 [0m[[0m[0minfo[0m] [0m[0mscalastyle Finished in 9 ms[0m
-[0m[[0m[32msuccess[0m] [0m[0mcreated output: /home/knoldus/IdeaProjects/Kipday2/target[0m
