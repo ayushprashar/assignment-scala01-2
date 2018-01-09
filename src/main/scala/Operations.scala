@@ -1,6 +1,6 @@
 class Operations {
 
-  def print_indices(domain: List[Int]) {
+  def printIndices(domain: List[Int]) {
     val result = for (counter <- 0 to domain.length - 1) yield s" $counter = ${domain(counter)} \n"
     println(result.mkString("\n"))
   }
@@ -23,7 +23,7 @@ class Operations {
     result(result.length - 1)
   }
 
-  def nth_fibonacci(index: Int): Int = {
+  def nthFibonacci(index: Int): Int = {
     if (index == 0) {
       0
     }
@@ -32,7 +32,7 @@ class Operations {
         1
       }
       else
-        nth_fibonacci(index - 1) + nth_fibonacci(index - 2)
+        nthFibonacci(index - 1) + nthFibonacci(index - 2)
     }
   }
 
@@ -44,16 +44,16 @@ class Operations {
       num * mul(num - 1)
   }
 
-  def sum_of_product(num: Int): Int = {
+  def sumOfProduct(num: Int): Int = {
     if (num / 10 == 0) {
       num
     }
     else {
-      sum_of_product(num / 10) + num % 10
+      sumOfProduct(num / 10) + num % 10
     }
   }
 
-  def sum_of_product_of_digits(num: Int): Int = {
-    sum_of_product(mul(num))
+  def sumOfProductOfDigits(num: Int): Int = {
+    sumOfProduct(mul(num))
   }
 }

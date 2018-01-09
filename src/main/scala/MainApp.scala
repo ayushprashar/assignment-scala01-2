@@ -13,8 +13,8 @@ object MainApp extends App{
   val toFindMax = List(toFindMax1,toFindMax2,toFindMax3,toFindMax4,toFindMax5)
   val fibonacciPlaceholder = 4
   val sopod_placeholder = 5
-  exec.print_indices(toPrintIndex)
+  exec.printIndices(toPrintIndex)
   println(exec.findMax(toFindMax))
-  println(exec.nth_fibonacci(fibonacciPlaceholder))
-  println(exec.sum_of_product_of_digits(sopod_placeholder))
+  println(exec.nthFibonacci(fibonacciPlaceholder))
+  println(exec.sumOfProductOfDigits(sopod_placeholder))
 }
